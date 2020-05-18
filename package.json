@@ -8,7 +8,7 @@
   "license": "UNLICENSED",
   "scripts": {
     "start": "sanity start",
-	"build": "npm run build",
+	"build": "lerna run build --parallel",
     "graphql-deploy": "sanity graphql deploy --playground",
     "test": "sanity check"	
   },
