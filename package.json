@@ -8,7 +8,7 @@
   "license": "UNLICENSED",
   "scripts": {
     "start": "sanity start",
-    
+    "build": "sanity build --no-minify --source-maps",
     "test": "sanity check"
   },
   "keywords": [
