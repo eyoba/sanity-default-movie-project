@@ -7,11 +7,10 @@
   "author": "Eyob Tsegay <eyoba1@gmail.com>",
   "license": "UNLICENSED",
   "scripts": {
-    "dev": "sanity start",   
-    "build": "sanity build",
+    "start": "sanity start",
+	"build": "npm run build --parallel",
     "graphql-deploy": "sanity graphql deploy --playground",
-    "lint": "eslint .",
-    "test": "sanity check"
+    "test": "sanity check"	
   },
   "keywords": [
     "sanity"
@@ -28,8 +27,7 @@
     "prop-types": "^15.6",
     "react": "^16.2",
     "react-dom": "^16.2",
-    "react-icons": "^2.2.5",
-	"lerna": "^3.21.0"
+    "react-icons": "^2.2.5"
   },
   "devDependencies": {}
 }
