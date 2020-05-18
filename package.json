@@ -8,7 +8,7 @@
   "license": "UNLICENSED",
   "scripts": {
     "start": "sanity start",
-    "build": "lerna bootstrap && sanity build",
+    "build": "sanity build",
     "test": "sanity check"
   },
   "keywords": [
@@ -30,7 +30,5 @@
     "react-icons": "^2.2.5",
     "sanity-plugin-dashboard-widget-netlify": "^1.0.1"
   },
-  "devDependencies": {
-    "lerna": "^3.21.0"
-  }
+  "devDependencies": {}
 }
