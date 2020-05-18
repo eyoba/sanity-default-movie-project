@@ -30,5 +30,7 @@
     "react-icons": "^2.2.5",
     "sanity-plugin-dashboard-widget-netlify": "^1.0.1"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "lerna": "^3.21.0"
+  }
 }
