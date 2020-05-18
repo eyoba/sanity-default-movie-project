@@ -1,0 +1,11 @@
+/node_modules
+/dist
+.sass-cache/
+.tmp/
+.ts-build
+/coverage
+/dist
+/typings
+/build
+.idea
+.vscode
