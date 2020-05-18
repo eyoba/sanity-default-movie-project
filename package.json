@@ -7,10 +7,11 @@
   "author": "Eyob Tsegay <eyoba1@gmail.com>",
   "license": "UNLICENSED",
   "scripts": {
-    "start": "sanity start",
-	"build": "lerna run build --parallel",
+    "dev": "sanity start",   
+    "build": "sanity build",
     "graphql-deploy": "sanity graphql deploy --playground",
-    "test": "sanity check"	
+    "lint": "eslint .",
+    "test": "sanity check"
   },
   "keywords": [
     "sanity"
