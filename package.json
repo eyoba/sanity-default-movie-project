@@ -8,8 +8,8 @@
   "license": "UNLICENSED",
   "scripts": {
     "start": "sanity start",
-	"predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+	"build": "sanity build",
+    "graphql-deploy": "sanity graphql deploy --playground",
     "test": "sanity check"	
   },
   "keywords": [
